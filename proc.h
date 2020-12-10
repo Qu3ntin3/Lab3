@@ -59,7 +59,7 @@ struct proc {
   float p;
   float rank;
   float waitingCycles;
-  int level;
+  int queue;
   int ticket;
 
   
